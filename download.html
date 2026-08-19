@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App Download</title>
+<style>
+  :root{
+    --bg-deep: #120a24;
+    --bg-panel: #1c1033;
+    --purple-1: #7c3aed;
+    --purple-2: #a855f7;
+    --purple-glow: #c084fc;
+    --gold: #f5c563;
+    --text-main: #f3eefc;
+    --text-dim: #b3a4d1;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body{
+    background: radial-gradient(circle at 20% 10%, #2a1550 0%, var(--bg-deep) 55%);
+    color: var(--text-main);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .orb{ position:fixed; border-radius:50%; filter: blur(60px); opacity:0.35; z-index:0; }
+  .orb1{ width:280px; height:280px; background:var(--purple-1); top:-80px; left:-60px; }
+  .orb2{ width:220px; height:220px; background:var(--purple-glow); bottom:-60px; right:-40px; }
+
+  header{ width:100%; text-align:center; padding: 48px 20px 20px; z-index:1; }
+  .eyebrow{
+    display:inline-block; font-size:12px; letter-spacing:3px; text-transform:uppercase;
+    color: var(--gold); border: 1px solid rgba(245,197,99,0.4); padding:6px 14px;
+    border-radius:999px; margin-bottom:18px;
+  }
+  h1{
+    font-size: clamp(28px, 6vw, 44px); font-weight:800;
+    background: linear-gradient(90deg, var(--purple-glow), var(--gold));
+    -webkit-background-clip:text; background-clip:text; color:transparent; line-height:1.2;
+  }
+  .subtitle{ color: var(--text-dim); margin-top:14px; font-size:15px; max-width:480px; margin:14px auto 0; }
+
+  main{ width:100%; max-width:460px; padding: 20px; z-index:1; }
+  .card{
+    background: linear-gradient(160deg, var(--bg-panel), #17092c);
+    border: 1px solid rgba(168,85,247,0.25); border-radius: 20px; padding: 28px 24px;
+    box-shadow: 0 20px 60px rgba(124,58,237,0.25);
+  }
+
+  .what-it-does{
+    background: rgba(168,85,247,0.08);
+    border: 1px solid rgba(168,85,247,0.2);
+    border-radius: 14px;
+    padding: 18px;
+    margin-bottom: 24px;
+  }
+  .what-it-does h3{ font-size:13px; color: var(--gold); text-transform:uppercase; letter-spacing:1px; margin-bottom:10px; }
+  .what-it-does ul{ padding-left: 18px; color: var(--text-dim); font-size:14px; line-height:1.7; }
+  .what-it-does li{ margin-bottom:4px; }
+
+  .meta{ display:flex; justify-content:space-between; font-size:12px; color:var(--text-dim); margin-bottom:20px; padding: 0 4px; }
+
+  .download-btn{
+    display:block; width:100%; text-align:center; padding:16px; border:none; border-radius:12px;
+    background: linear-gradient(90deg, var(--purple-1), var(--purple-2)); color:#fff;
+    font-size:16px; font-weight:700; cursor:pointer; text-decoration:none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .download-btn:hover{ transform: translateY(-2px); box-shadow: 0 10px 24px rgba(124,58,237,0.4); }
+
+  .note{ margin-top:16px; text-align:center; color: var(--text-dim); font-size:12px; line-height:1.6; }
+
+  footer{ padding: 30px 20px 50px; text-align:center; color: var(--text-dim); font-size:12px; z-index:1; }
+</style>
+</head>
+<body>
+
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+
+  <header>
+    <span class="eyebrow">Network Tool</span>
+    <h1>Free Fire Fake Lag  VPN</h1>
+    <p class="subtitle"> Download  Button down .</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <div class="what-it-does">
+        <h3>Free Fire Cheat Client</h3>
+        <ul>
+          <li>Free Fire </li>
+          <li>Network lag</li>
+          <li> AntiBan🥶</li>
+        </ul>
+      </div>
+
+      <div class="meta">
+        <span>Size: 12 MB</span>
+        <span>Version: 1.0</span>
+      </div>
+
+      <a href="#" class="download-btn" id="downloadBtn">Download APK</a>
+      <p class="note">Apni device settings me "Unknown Sources" allow karni hogi APK install karne ke liye. Sirf trusted source se download karein.</p>
+    </div>
+  </main>
+
+  <footer>
+    Free Fire Lag Fix VPN — Network Utility
+  </footer>
+
+<script>
+  document.getElementById('downloadBtn').addEventListener('click', function(e){
+    e.preventDefault();
+    alert('Click On Ads Wait 10 Seconds.');
+  });
+</script>
+
+
+
+
+</body>
+
+</body>
+</html>
+Id('downloadBtn').addEventListener('click', function(e){
+    e.preventDefault();
+    alert('Yahan apni actual APK file ka link lagayein — is button ko apne real download URL se replace karein.');
+  });
+</script>
+
+</body>
+</html>
